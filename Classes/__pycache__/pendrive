@@ -1,0 +1,15 @@
+# Importando a classe Armazenamento do código anterior
+from computador import Armazenamento
+
+class Pendrive:
+    def __init__(self, tipo, capacidade, marca):
+        self.tipo = tipo
+        self.capacidade = capacidade
+        self.marca = marca
+
+    def __str__(self):
+        return f"Tipo: {self.tipo}\nCapacidade: {self.capacidade}\nMarca: {self.marca}"
+
+# Exemplo de uso da classe Pendrive
+meu_pendrive = Pendrive(tipo="USB", capacidade="64GB", marca="SanDisk")
+print(meu_pendrive)
