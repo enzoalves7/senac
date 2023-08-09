@@ -24,6 +24,5 @@ class Computador:
         self.memoria = Memoria()
         self.processador = Processador("", "")
         self.armazenamento = Armazenamento("", "")
-        
     def __str__(self):
         return f"Memória: {self.memoria}\nProcessador: {self.processador}\nArmazenamento: {self.armazenamento}"
